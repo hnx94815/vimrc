@@ -15,6 +15,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'tomtom/tcomment_vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -53,3 +54,4 @@ map<C-n> :NERDTreeToggle<CR>
 nnoremap <C-d> :YcmCompleter GoToDefinition<CR>
 nnoremap <C-b> :YcmCompleter GoToImplementation<CR>
 nnoremap <C-r> :YcmCompleter GoToReferences<CR> 
+nnoremap <C-n> :set number!<CR>
